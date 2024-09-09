@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster"/>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Indie+Flower"/><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="nav navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <p class="navbar-text"><a href="#" class="navbar-link about">About</a></p>
+      <p class="navbar-text"><a href="#" class="navbar-link portofolio">Portofolio</a></p>
+      <p class="navbar-text"><a href="#" class="navbar-link contact">Contact</a></p>
+    </div>
+  </div>
+</div><!-- This is the navigation bar -->
+
+<div class="jumbotron">
+  <img class="img-responsive img-circle center-block profile-pic" src="Muhammad Zahran Wafi Logo - Original - 5000x5000.png" alt="Zahran logo">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="text-muted text-center" id="about">About</h2>
+        <p class="text-muted text-center">Welcome to my personal portofolio. I am Muhammad zahran wafi, a student at the Computer Science Faculty at University "Catur insan Cendekia", Cirebon. My main objective is to become a programmer. Saya tertarik dengan programmer sejak saya masih sangat muda (15 tahun). Saya pertama kali tertarik dengan komputer ketika saya mendapatkan PC pertama saya dan banyak bermain game di warung internet "warnet", saya memutuskan bahwa saya ingin menjadi programmer di masa depan.
+        </p>
+      </div>
+        <h2 class="text-muted text-center" id="portofolio">Portofolio ( coming soon )</h2>
+      <div class="col-xs-13">
+        <div class="col-xs-6 col-xs-4">
+          <img class="thumbnail center-block" src="https://t3.ftcdn.net/jpg/01/39/17/60/240_F_139176048_UOfvoFcsZziCCbgER68V95bdfu5IhUS1.jpg" alt="img1">
+        </div>
+        <div class="col-xs-6 col-xs-4">
+          <img class="thumbnail center-block" src="https://t3.ftcdn.net/jpg/01/39/17/60/240_F_139176048_UOfvoFcsZziCCbgER68V95bdfu5IhUS1.jpg" alt="img2">
+        </div>
+        <div class="col-xs-6 col-xs-4">
+          <img class="thumbnail center-block" src="https://t3.ftcdn.net/jpg/01/39/17/60/240_F_139176048_UOfvoFcsZziCCbgER68V95bdfu5IhUS1.jpg" alt="img3">
+        </div>
+        <div class="col-xs-6 col-xs-4">
+          <img class="thumbnail center-block" src="https://t3.ftcdn.net/jpg/01/39/17/60/240_F_139176048_UOfvoFcsZziCCbgER68V95bdfu5IhUS1.jpg" alt="img4">
+        </div>
+        <div class="col-xs-6 col-xs-4">
+          <img class="thumbnail center-block" src="https://t3.ftcdn.net/jpg/01/39/17/60/240_F_139176048_UOfvoFcsZziCCbgER68V95bdfu5IhUS1.jpg" alt="img5">
+        </div>
+        <div class="col-xs-6 col-xs-4">
+          <img class="thumbnail center-block" src="https://t3.ftcdn.net/jpg/01/39/17/60/240_F_139176048_UOfvoFcsZziCCbgER68V95bdfu5IhUS1.jpg" alt="img6">
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <h2 class="text-muted text-center" id="contact">Contact</h2>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputName" class="col-xs-2 control-label text-muted">Name</label>
+            <div class="col-xs-4">
+              <input type="text" class="form-control input-color" id="inputName" placeholder="Name">
+            </div>
+            <div class="col-xs-6">
+              <p class="text-muted">If you want to get in touch with me please complete this form.</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail" class="col-xs-2 control-label text-muted">Email</label>
+            <div class="col-xs-4">
+              <input type="email" class="form-control input-color" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="col-xs-6">
+              <p class="text-muted">You can ask me whatever you wish, I'll be more than happy to answer.</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber" class="col-xs-2 control-label text-muted">Phone Number</label>
+            <div class="col-xs-4">
+              <input type="text" class="form-control input-color" id="inputPhoneNumber" placeholder="Phone Number" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="20">
+            </div>
+            <div class="col-xs-6">
+              <p class="text-muted">I would also appreciate if you'd send me any feedback regarding this page.</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-xs-2 control-label text-muted">Message</label>
+            <div class="col-xs-4">
+              <!--<input type="text" class="form-control input-color" id="inputMessage" placeholder="Message" rows="3">-->
+              <textarea class="form-control input-color" rows="3" placeholder="Message"></textarea>
+            </div>
+            <div class="col-xs-6">
+              <p class="text-muted">I will respond as soon as I can.</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-4">
+              <button type="submit" class="btn own-btn text-muted">Submit</button>
+              <button type="reset" class="btn own-btn text-muted">Reset Form</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="text-muted text-center">Thank you for visiting my webpage.</h2>
+      </div>
+      <div class="col-xs-3"></div>
+      <div class="contact-images">
+        <div class="col-xs-1">
+          <a href="https://www.facebook.com/"><img class="img-responsive img-rounded" src="https://abreathofcourage.com/wp-content/uploads/2017/04/facebook-logo-png-white-i6.png" alt="facebook"></a>
+        </div>
+        <div class="col-xs-1">
+          <a href="https://twitter.com/"><img class="img-responsive img-rounded" src="Twitter_X_White_Logo_PNG-removebg-preview.png" alt="twitter"></a>
+        </div>
+        <div class="col-xs-1">
+          <a href="https://www.linkedin.com/in/drgdimitriu/"><img class="img-responsive img-rounded" src="Linkedin_Vector_Hd_PNG_Images__Linkedin_White_Icon__Linkedin_Icons__White_Icons__Linkedin_Logo_PNG_Image_For_Free_Download-removebg-preview.png" alt="linkedin"></a>
+        </div>
+        <div class="col-xs-1">
+          <a href="https://github.com/zahranwag"><img class="img-responsive img-rounded" src="https://static.integromat.com/img/packages/github_256.png" alt="github"></a>
+        </div>
+        <div class="col-xs-1">
+          <a href="https://www.instagram.com/zahranwafi_"><img class="img-responsive img-rounded" src="Instagram_Logo_White_Vector_Art_PNG__White_Instagram_Icon_Png_Instagram_Instagram_Logo__Instagram_Icons__Logo_Icons__White_Icons_PNG_Image_For_Free_Download-removebg-preview.png" alt="instagram"></a>
+        </div>
+        <div class="col-xs-1">
+          <a href="https://www.youtube.com/@zahranwafi1887"><img class="img-responsive img-rounded" src="MetroStation__white_lock_icon___png-removebg-preview.png" alt="youtube"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

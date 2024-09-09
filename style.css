@@ -1,0 +1,94 @@
+html {
+  background-color: #191919;
+}
+
+.nav {
+  border: solid;
+  border-color: #222722;
+  border-width: 1px;
+}
+
+.jumbotron {
+  background-color: #222323;
+  padding: 80px;
+}
+/* I looked through Bootstrap's css file to fin the color for the navbar-inverse class and changed it a bit */
+
+h2 {
+  font-family: Indie Flower;
+  padding: 10px;
+}
+h3 {
+  font-family: Indie Flower;
+}
+
+.input-color {
+  background-color: #202020;
+  border-color: #222;
+  color: #070707;
+}
+.input-color:focus {
+  border-color: #222;
+}
+
+/*This is for the placeholder color for different browsers*/
+::placeholder {
+  color: #696969 !important;
+}
+
+p {
+  font-family: Indie Flower;
+}
+.col-xs-6 p {
+  font-size: 15px;
+}
+p a {
+  font-size: 17px;
+}
+
+.form-group {
+  font-family: Indie Flower;
+}
+
+.own-btn {
+  background-color: #303030;
+}
+
+button:hover {
+  background-color: #202020;
+  color: #ffffff !important;
+  border-color: #222;
+}
+
+.my-footer {
+  border: solid;
+  border-width: 1px;
+}
+
+.thumbnail {
+  background-color: #222323;
+  border: #222;
+}
+
+.contact-images img {
+  margin-top: 20px;
+  height: 50px;
+  width: auto;
+}
+
+.profile-pic {
+  width: 20%;
+}
+
+.col-xs-13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media(max-width: 500px) {
+  .col-xs-13 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
